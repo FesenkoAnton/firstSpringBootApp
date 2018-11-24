@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    username: postgres
+    password: Tsunami9
+    driverClassName: org.postgresql.Driver
+    driverDialect: org.hibernate.dialect.PostgreSQL82Dialect
+    url: jdbc:postgresql://localhost/db1
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+server:
+  port: 8087
+
+
+
+
