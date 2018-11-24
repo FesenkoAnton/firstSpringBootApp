@@ -12,8 +12,11 @@ import java.util.List;
 @RestController
 public class JsonController {
 
-    @Autowired
     DataService dataService;
+
+    public JsonController(DataService dataService){
+        this.dataService = dataService;
+    }
 
     @RequestMapping(value="/rest", method = RequestMethod.GET)
     public List<ClientDto> getAllClients(){
