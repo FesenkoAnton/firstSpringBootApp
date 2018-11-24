@@ -5,6 +5,9 @@ spring:
     driverClassName: org.postgresql.Driver
     driverDialect: org.hibernate.dialect.PostgreSQL82Dialect
     url: jdbc:postgresql://localhost/db1
+  jpa:
+    hibernate:
+      ddl-auto: create
   mvc:
     view:
       prefix: /WEB-INF/views/
