@@ -12,7 +12,6 @@ spring:
     view:
       prefix: /WEB-INF/views/
       suffix: .jsp
-
 server:
   port: 8087
 
