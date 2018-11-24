@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 public class JsonController {
 
-    DataService dataService;
+    private DataService dataService;
 
     public JsonController(DataService dataService){
         this.dataService = dataService;
